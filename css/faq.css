@@ -1,9 +1,5 @@
-.faq {
-   margin-top: 8rem;
-}
-
 .title_faq {
-   text-align: center;
+   
    margin: 2rem 0;
 }
 
@@ -11,7 +7,36 @@
    border-bottom: 1px solid var(--dividers-light-gayish-blue);
    padding: 1rem 0;
 }
+
+.title_ask_faq {
+   display: flex;
+   justify-content: space-between;
+}
 .title_ask_faq::after {
    content: url("../images/icons/icon-arrow-down.svg");
    margin-left: .3rem;
+   text-align: right;
+}
+
+@media screen and (max-width: 1250px) {
+   .title_faq {
+      text-align: center;
+   }
+.faq {
+   margin-top: 8rem;
+}
+}
+
+
+@media screen and (min-width: 1250px) {
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.faq {
+   width: 600px;
+   margin-left: 5rem;
+}
 }

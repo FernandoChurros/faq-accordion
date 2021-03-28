@@ -2,8 +2,8 @@
    background-color: #FFF;
    border-radius: 25px;
    padding: 1.5rem;
-   margin: 10rem auto 2rem;
-   max-width: 450px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 @media screen and (max-width: 520px) {
@@ -12,7 +12,13 @@
    }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
+   .wrapper_faq {
+      max-width: 450px;
+      margin-top: 10rem;
+      margin-bottom: 2rem;
+   }
+
    .img_faq {
       background: url("../images/img/illustration-woman-online-mobile.svg"), url("../images/bg/bg-pattern-mobile.svg") no-repeat bottom right;
       width: 266px;
@@ -20,5 +26,24 @@
       position: absolute;
       left: 50%;
       transform: translate(-50%, -65%);
+   }
+}
+
+@media screen and (min-width: 1250px) {
+   .wrapper_faq {
+      display: flex;
+      align-items: center;
+      max-width: max-content;
+   }
+
+   .img_faq {
+      background: 
+         url("../images/img/illustration-box-desktop.svg") no-repeat -15% 50%,
+         url("../images/img/illustration-woman-online-desktop.svg") no-repeat,
+         url("../images/bg/bg-pattern-desktop.svg");
+
+      width: 472px;
+      height: 359px;
+      transform: translateX(-15%); 
    }
 }
