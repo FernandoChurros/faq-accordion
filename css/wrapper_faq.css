@@ -1,0 +1,24 @@
+.wrapper_faq {
+   background-color: #FFF;
+   border-radius: 25px;
+   padding: 1.5rem;
+   margin: 10rem auto 2rem;
+   max-width: 450px;
+}
+
+@media screen and (max-width: 520px) {
+   .wrapper_faq {
+      margin: 10rem 1.5rem 2rem;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .img_faq {
+      background: url("../images/img/illustration-woman-online-mobile.svg"), url("../images/bg/bg-pattern-mobile.svg") no-repeat bottom right;
+      width: 266px;
+      height: 196px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -65%);
+   }
+}

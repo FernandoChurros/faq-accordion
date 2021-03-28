@@ -1,0 +1,17 @@
+.faq {
+   margin-top: 8rem;
+}
+
+.title_faq {
+   text-align: center;
+   margin: 2rem 0;
+}
+
+.ask_faq {
+   border-bottom: 1px solid var(--dividers-light-gayish-blue);
+   padding: 1rem 0;
+}
+.title_ask_faq::after {
+   content: url("../images/icons/icon-arrow-down.svg");
+   margin-left: .3rem;
+}
