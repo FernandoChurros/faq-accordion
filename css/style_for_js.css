@@ -1,0 +1,10 @@
+.ask_paragrafo {
+   display: none;
+   transition: transform 200ms linear;
+   transform: translateY(-50%);
+}
+
+.active {
+   display: block;
+   transform: translateY(0%);
+}
