@@ -12,6 +12,7 @@
    display: flex;
    justify-content: space-between;
    margin-bottom: .5rem;
+   font-weight: 400;
 }
 .title_ask_faq::after {
    content: url("../images/icons/icon-arrow-down.svg");
